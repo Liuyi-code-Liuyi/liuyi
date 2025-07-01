@@ -1,5 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib
+
+# 设置中文字体
+matplotlib.rcParams['font.family'] = 'SimHei'  # 使用黑体显示中文
+matplotlib.rcParams['axes.unicode_minus'] = False  # 正确显示负号
 
 # 国家列表
 countries = ['挪威', '德国', '中国', '美国', '瑞典']
